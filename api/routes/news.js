@@ -75,7 +75,7 @@ setInterval(() => {
     .catch(error => {
       console.log(error);
     });
-}, 1000); //Schedule evry 6 hours --> 21600000 milliseconds
+}, 21600000); //Schedule evry 6 hours --> 21600000 milliseconds
 
 router.get("/last", (req, res, next) => {
   res.send(lastUpdate);
