@@ -23,6 +23,7 @@ var options = {
 
 var lastUpdate = [];
 var lastUpdateString = "";
+test = 0;
 
 axios
   .get(
@@ -56,7 +57,8 @@ axios
 
 setInterval(() => {
   console.log("active");
-}, 600000);
+  test = test + 1;
+}, 1000);
 
 setInterval(() => {
   lastUpdateString.articles.map(el => {
@@ -121,4 +123,7 @@ router.get("/last", (req, res, next) => {
   res.send(lastUpdateString);
 });
 
+router.get("/news", (req, res, next) => {
+  res.send(test);
+});
 module.exports = router;
