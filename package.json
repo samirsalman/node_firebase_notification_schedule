@@ -1,0 +1,20 @@
+{
+  "name": "newsapi",
+  "version": "1.0.0",
+  "description": "This simple project is a server for News API requests that update the news every 15 minutes and store them in a variable. For that if the newsapi service stop working, the server have the last update stored.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Samir Salman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-api-doc": "0.0.12",
+    "firebase-admin": "^8.9.2",
+    "nodemon": "^2.0.1"
+  }
+}
