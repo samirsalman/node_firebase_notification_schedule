@@ -123,7 +123,7 @@ router.get("/last", (req, res, next) => {
   res.send(lastUpdateString);
 });
 
-router.get("/news", (req, res, next) => {
-  res.send(test);
+router.get("/", (req, res, next) => {
+  res.send(test.toString());
 });
 module.exports = router;
