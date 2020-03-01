@@ -5,7 +5,7 @@ A server that schedule updates from NewsAPI every 15 minutes and send push notif
 
 ## How to use it
 
-You can clone the repository, configure your firebase project and add a service account to use Firebase Push Notification and then add the file to cloned project directory.
+You can clone the repository, configure your firebase project and add a service account to use Firebase Push Notification and then add the file to cloned project directory and add the path to **./api/routes/news.js** file where you find `<YOUR SERVICE ACCOUNT KEY FILE>` .
 You can follow this tutorial:
 
 <a href="https://firebase.google.com/docs/admin/setup">Firebase admin SDK tutorial</a>
