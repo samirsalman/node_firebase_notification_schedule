@@ -3,7 +3,7 @@ const router = express.Router();
 const axios = require("axios");
 const News = require("../models/news");
 var admin = require("firebase-admin");
-var serviceAccount = require("../../corona-virus-italia-firebase-adminsdk-etcfa-a6e2249698.json");
+var serviceAccount = require("../../<YOUR SERVICE ACCOUNT KEY FILE>");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
