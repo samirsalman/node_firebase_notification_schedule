@@ -13,7 +13,7 @@ You can follow this tutorial:
 
 ## How to start it
 
-***After setting your Firebase admin SDK in the project*** and added your NewsAPI key wher you find `<YOUR NEWSAPI KEY>` in **./api/routes/news.js** file, you can start the project with `node server.js` command. ***If you start project for the first time, you must run `npm install` command.***
+***After setting your Firebase admin SDK in the project***, add your NewsAPI key where you find `<YOUR NEWSAPI KEY>` in **./api/routes/news.js** file. Now you can start the project with `node server.js` command. ***If you start project for the first time, you must run `npm install` command.***
 
 
 ## Author
