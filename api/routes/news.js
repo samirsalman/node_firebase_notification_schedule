@@ -92,7 +92,7 @@ setInterval(() => {
 setInterval(() => {
   axios
     .get(
-      "http://newsapi.org/v2/top-headlines?country=it&q=coronavirus&apiKey=4f63bdc1e1104b96a1a0961cddf3ed37"
+      "http://newsapi.org/v2/top-headlines?country=it&q=coronavirus&apiKey=<YOUR API KEY>"
     )
     .then(response => {
       console.log("Updated news: ", Date.now());
